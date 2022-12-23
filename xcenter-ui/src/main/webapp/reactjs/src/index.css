@@ -1,0 +1,93 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    line-height: 1.42857143;
+    color: #000;
+    background-color: #fff;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body, div, dl, dt, dd, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td{
+    padding: 0;
+    margin: 0;
+}
+
+button, html input[type="button"], input[type="reset"], input[type="submit"]{
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+
+.clearfix:before, .clearfix:after, .dl-horizontal dd:before, .dl-horizontal dd:after, .container:before, .container:after, .container-fluid:before, .container-fluid:after, .row:before, .row:after, .form-horizontal .form-group:before, .form-horizontal .form-group:after, .btn-toolbar:before, .btn-toolbar:after, .btn-group-vertical>.btn-group:before, .btn-group-vertical>.btn-group:after, .nav:before, .nav:after, .navbar:before, .navbar:after, .navbar-header:before, .navbar-header:after, .navbar-collapse:before, .navbar-collapse:after, .pager:before, .pager:after, .panel-body:before, .panel-body:after, .modal-footer:before, .modal-footer:after{
+    display: table;
+    content: " ";
+}
+
+.clearfix:after, .dl-horizontal dd:after, .container:after, .container-fluid:after, .row:after, .form-horizontal .form-group:after, .btn-toolbar:after, .btn-group-vertical>.btn-group:after, .nav:after, .navbar:after, .navbar-header:after, .navbar-collapse:after, .pager:after, .panel-body:after, .modal-footer:after{
+    clear: both;
+}
+
+.nav{
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.not-found{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+input:focus, select:focus{
+    border: 1px solid #14003b;
+}
+
+::selection{
+    color: #ffffff;
+    background-color: #0a1c53;
+}
+
+.hyper-link{
+    color: #0a1c53;
+}
+
+input, select, button{
+    font-size: 11px;
+}
+
+input{
+    padding: 8px 10px;
+    border: 1px solid #d3d3d3;
+    outline: none;
+    margin: 5px 10px;
+    border-radius: 3px;
+    width: 220px;
+}
+
+button {
+    padding: 5px 10px;
+    font-weight: 700;
+}
+
+.btn-submit{
+    background-color: #6edbcc;
+}
