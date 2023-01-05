@@ -1,10 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/x-center-cloud-eureka-discory-service" />
+    <file type="web" url="file://$PROJECT_DIR$/x-center-cloud-eureka-discovery-service" />
+    <file type="web" url="file://$PROJECT_DIR$/x-center-gateway" />
+    <file type="web" url="file://$PROJECT_DIR$/x-center-infra" />
+    <file type="web" url="file://$PROJECT_DIR$/x-center-login" />
+    <file type="web" url="file://$PROJECT_DIR$/x-center-webservice" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/x-center-infra/pom.xml" />
+        <option value="$PROJECT_DIR$/x-center-cloud-eureka-discovery-service/pom.xml" />
+        <option value="$PROJECT_DIR$/x-center-login/pom.xml" />
+        <option value="$PROJECT_DIR$/x-center-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/x-center-webservice/pom.xml" />
       </list>
     </option>
   </component>

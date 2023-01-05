@@ -1,0 +1,26 @@
+server:
+  port: 8765
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8080/eureka
+
+spring:
+  application:
+    name: x-center-gateway
+  cloud:
+    gateway:
+      routes:
+        - id: webserviceModule
+          uri: lb://XCENTER-WEBSERVICE
+          predicates:
+            - Path=/webservice/**
+        - id: authenticationModule
+          uri: lb://XCENTER-LOGIN
+          predicates:
+            - Path=/authentication/**
+        - id: infraModule
+          uri: lb://XCENTER-INFRA
+          predicates:
+            - Path=/infra/**
